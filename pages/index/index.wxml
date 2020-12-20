@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view style="display: flex;align-items:center;justify-content:center;">
+  上传视频
+</view>
+
+ 
+<view class='contbox'>
+ <view class='thumbbox'>
+ <video class="{{videoshow}}" src="{{src}}" style="margin:20rpx 20rpx 20rpx 20rpx"></video>
+ </view>
+ <!-- 提交 -->
+ <button bindtap='getLocalVideo' class="btn2" type="primary" form-type='submit'>选择视频</button>
+ <button type="default" class="btn2" bindtap="chooseVideo" bindtap='uploadvideo' type="warn" form-type='reset'>上传视频</button>
+</view>
+
+
+
+

@@ -1,0 +1,15 @@
+<view style="text-align: center;">人员名单</view>
+
+<view>
+  <view>
+    <view>
+  <view wx:for="{{students}}" style="display: flex;align-items:center;justify-content:center;margin:10px 5px 15px 20px;">
+    <text>{{item.name}}</text>
+      <view>
+        <icon data-index="{{item.name}}" type="cancel" bindtap="deletStudents"></icon>
+      </view>
+    </view>
+    
+</view>
+  </view>
+</view>

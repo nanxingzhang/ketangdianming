@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/denglu/denglu",
+    "pages/xiugai/xiugai",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "ZSTU课堂点名",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#07c160",
+    "backgroundColor": "gray",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath":"images/tabbar/首页.png",
+        "selectedIconPath": "images/tabbar/首页.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/xiugai/xiugai",
+        "iconPath":"images/tabbar/修改.png",
+        "selectedIconPath": "images/tabbar/修改.png",
+        "text": "修改"
+      },
+      {
+        "pagePath": "pages/denglu/denglu",
+        "iconPath": "images/tabbar/设置.png",
+        "selectedIconPath": "images/tabbar/设置.png",
+        "text": "设置"
+      }
+    ]
+  }
+}
